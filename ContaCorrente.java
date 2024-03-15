@@ -6,7 +6,6 @@ public class ContaCorrente {
     private double saldo;
 
     public ContaCorrente(String titular, int numConta, double saldo){
-
         this.titular = titular;
         this.numConta = numConta;
         this.saldo = saldo;
@@ -17,7 +16,6 @@ public class ContaCorrente {
     public void Depositar(double valor){
         this.saldo += valor;
         System.out.println("Valor: " + valor + " Depositado com sucesso.");
-
     }
 
     public void Sacar(double valor){
@@ -29,7 +27,6 @@ public class ContaCorrente {
             this.saldo -= valor;
             System.out.println("Valor: " + valor + " Sacado com sucesso.");
             System.out.println("Saldo atual: " + this.saldo);
-
         }
     }
 
@@ -38,7 +35,5 @@ public class ContaCorrente {
         System.out.println("Titular: " + this.titular);
         System.out.println("Saldo atual: " + this.saldo);
     }
-
-
 
 }
