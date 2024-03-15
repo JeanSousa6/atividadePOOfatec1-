@@ -1,7 +1,7 @@
 package Fatec.aulas.Grace.Atividades;
 import java.util.Locale;
 import java.util.Scanner;
-@author Jean Sousa; 
+
 
 public class Program {
     public static void main(String[] args) {
@@ -11,6 +11,7 @@ public class Program {
 
         Scanner lerDado = new Scanner(System.in);
         ContaCorrente c1 = new ContaCorrente("Jean Sousa", 007314-5, 550.00);
+        
         boolean acesso = true;
         int opcao = 0;
         double v;
